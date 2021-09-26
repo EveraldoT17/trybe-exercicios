@@ -1,0 +1,5 @@
+É sexta-feira
+É sabado
+É Domingo
+É Segunda
+E assim sucessivamente...

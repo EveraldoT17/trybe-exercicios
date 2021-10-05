@@ -1,0 +1,25 @@
+h1 {
+    font-size: 65px; color: orange; font-family: sans-serif;
+}
+ul {
+    background-color: palegreen;
+}
+.backColor {
+    background-color: seagreen;
+}
+p{
+  font-weight: 600; font-size: 48px;  
+}
+body{
+    font-size: 16px;
+}
+#list1{
+    background-color: blue;
+}
+#list2{
+    background-color: gray;
+}
+#list3{
+    background-color: red;
+
+}

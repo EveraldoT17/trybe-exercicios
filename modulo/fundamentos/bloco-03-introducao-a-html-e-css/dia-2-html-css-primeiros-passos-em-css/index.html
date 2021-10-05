@@ -5,7 +5,7 @@
     <title>HTML</title>
     <style>
         h1 {
-            font-size: 65px; color: orange;
+            font-size: 65px; color: orange; font-family: sans-serif;
         }
         ul {
             background-color: palegreen;
@@ -13,15 +13,30 @@
         .backColor {
             background-color: seagreen;
         }
+        p{
+          font-weight: 600; font-size: 48px;  
+        }
+        body{
+            font-size: 16px;
+        }
+        #list1{
+            background-color: blue;
+        }
+        #list2{
+            background-color: gray;
+        }
+        #list3{
+            background-color: red;
+        }
     </style>
   </head>
   <body>
     <h1>Exercícios 3.2</h1>
     <p class="backColor">Qual é a sua cor favorita?</p>
     <ul class="backColor">
-      <li>Azul</li>
-      <li>Cinza</li>
-      <li>Vermelho</li>
+      <li id="list1">Azul</li>
+      <li id="list2">Cinza</li>
+      <li id="list3">Vermelho</li>
     </ul>
   </body>
 </html>

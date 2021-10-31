@@ -13,9 +13,9 @@ function maisRepetido(numeros) {
       contRepetido = contNumero;
       indexNumeroRepetido = i;
     }
-    contNumero = 0;
+    contRepetido = 0;
   }
-  return numeros[indexNumeroRepetido];
+  return numeros[contRepetido];
 }
 
 console.log(maisRepetido([2, 3, 2, 5, 8, 2, 3]));
